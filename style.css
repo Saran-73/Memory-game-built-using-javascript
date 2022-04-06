@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(to top left, #003366 0%, #640c64 100%);
+    margin:0;
+    padding:0;
+    min-height:100vh;
+    display:grid;
+    justify-items: center;
+    align-content: center;
+}
+#gamebox{
+    box-sizing:border-box;
+    width:545px;
+    display:grid;
+    grid-template-columns:33% 33% 33% 33%;
+    grid-template-rows:33% 33% 33% ;
+    border-radius:0.5em;
+    grid-gap:0.5em;
+}
+img{
+   width:100%;
+   height:130px;
+   margin:0;
+    border:1px solid rgb(160, 107, 209);
+    border-radius:0.5em;
+}
